@@ -42,6 +42,6 @@ while (runNext == True):
 
         f.write(product_name.replace(",", "|") + ", " + image + ", " + price + ", " + link + "\n")
     
-     pageCount += 1
+    pageCount += 1
 
 f.close()
