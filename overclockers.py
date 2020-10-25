@@ -52,7 +52,7 @@ for category in categories:
             print("price: " + price + "\n")
             print("link: " + link + "\n")
 
-            f.write(product_name.replace(",", "|") + ", " + image + ", " + price + ", " + link + "\n")
+            f.write(product_name.replace(",", "|") + ", " + image + ", " + price.replace(",", "|") + ", " + link + "\n")
         
         pageCount += 1
 f.close()
